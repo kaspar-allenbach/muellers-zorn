@@ -11,7 +11,7 @@ layout: base
   <ul class="postListing">
     {%- for post in site.gedichte -%}
       <li>
-        <h2>
+        <h2 class="pageTitle">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>

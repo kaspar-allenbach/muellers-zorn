@@ -13,3 +13,10 @@ nav, .prevNext {
     display: flex;
     gap: 20px;
 }
+a {
+    color: var(--color-txt);
+    &:visited, &:hover {
+        color: rgb(190, 149, 149);
+        text-decoration: none;
+    }
+}

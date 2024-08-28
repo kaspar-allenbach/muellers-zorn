@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-Im Vertrauen auf den Weltengeist Christus, mache ich mich auf die Suche nach
-dem Weg, der in den Bereich meiner Herkunft führt.
