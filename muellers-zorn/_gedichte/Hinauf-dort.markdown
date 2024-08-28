@@ -7,9 +7,9 @@ author: "Erich Müller-Santis"
 creationDate: "erstes Stück: entworfen 14. Nov. 67, ausgeführt 13.–14. Mai 68, zweites Stück: 13.–14 Mai 681"
 ---
 
-Hinauf dort
-über den Rand wo
-Mauern
+Hinauf dort  
+über den Rand wo  
+Mauern  
 kein Halt mehr sind ..
 
 Schau!
