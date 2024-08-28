@@ -34,16 +34,6 @@ layout: base
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
-
-  {% if page.previous %}
-  <span class="previous-link">
-    <a rel="prev" href="{{ page.previous.url }}"
-      >{{ page.previous.title }}</a
-    >
-  </span>
-  {% endif %} {% if page.next %}
-  <span class="next-link">
-    <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} -></a>
-  </span>
-  {% endif %}
 </article>
+
+{%- include prevNext.liquid -%}
