@@ -1,47 +1,48 @@
 ---
 layout: post
-title: "Hinauf dort"
+title: "Die Wanderer"
 date: 1965-07-01
 categories: gedicht
 author: "Erich Müller-Santis"
 creationDate: "Erstfassung zweite Hälfte 60er Jahre, 2002 zweite Fassung "
 ---
-Auf allen Wegen weidet das Vermissen 
 
-Die Häuser knien taub 
+Auf allen Wegen weidet das Vermissen
 
-und die verwirrenden Gezeiten wissen 
+Die Häuser knien taub
 
-in ihrem ungeheuren Fliessen 
+und die verwirrenden Gezeiten wissen
 
-so wenig von dem Tag in dem wir sind 
+in ihrem ungeheuren Fliessen
 
-und ihr verstreichen hat uns blind 
+so wenig von dem Tag in dem wir sind
 
-und abendweit das letzte Wort entrissen 
+und ihr verstreichen hat uns blind
 
-und was wir dem Verstummen überliessen 
+und abendweit das letzte Wort entrissen
 
-erlosch und wurde Staub 
+und was wir dem Verstummen überliessen
 
-in dem wir unsre Namen schrieben 
+erlosch und wurde Staub
 
-als wäre das Erinnern fortgegangen 
+in dem wir unsre Namen schrieben
 
-und andres nicht von uns geblieben 
+als wäre das Erinnern fortgegangen
 
-als machtlos fragend ein Verlangen 
+und andres nicht von uns geblieben
 
-und fielen in die Zeit wie totes Laub 
+als machtlos fragend ein Verlangen
 
-das graue Schübe durch die Strassen trieben. 
+und fielen in die Zeit wie totes Laub
 
-Was liess die Jahre ihrem Bangen 
+das graue Schübe durch die Strassen trieben.
 
-und ihre Tage allen Hieben. 
+Was liess die Jahre ihrem Bangen
 
-Was liess uns gehn und die Entfernung lieben 
+und ihre Tage allen Hieben.
 
-und lange Nächte unser Schweigen sieben 
+Was liess uns gehn und die Entfernung lieben
 
-was liess den Stunden ihren Raub. 
+und lange Nächte unser Schweigen sieben
+
+was liess den Stunden ihren Raub.

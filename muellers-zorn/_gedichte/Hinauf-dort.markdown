@@ -8,21 +8,15 @@ creationDate: "erstes Stück: entworfen 14. Nov. 67, ausgeführt 13.–14. Mai 6
 ---
 
 Hinauf dort
-
 über den Rand wo
-
 Mauern
-
 kein Halt mehr sind ..
 
 Schau!
-
 da lockt
-
 Leere ...
 
 Vom Turm Deines Anspruchs
-
 hinunter:
 
 fühle den Wahnsinn:
@@ -30,9 +24,7 @@ fühle den Wahnsinn:
 Absturz ...
 
 Tief hat
-
 ganz unten
-
 Dein Ungenügen Dir
 
 Klingen
