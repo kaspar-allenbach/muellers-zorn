@@ -4,6 +4,7 @@ title: "Zu meinen Gedichten"
 date: 1960-11-01
 categories: gedicht
 author: "Erich Müller-Santis"
+creationDate: "November 1960"
 ---
 
 Ich liebe manche Frau. 
