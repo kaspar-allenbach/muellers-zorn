@@ -8,4 +8,8 @@
   {%- feed_meta -%} {%- if jekyll.environment == 'production'
   and site.google_analytics -%} {%- include google-analytics.html -%} {%- endif
   -%}
+  <script>
+    /*to prevent Firefox FOUC, this must be here*/
+    let FF_FOUC_FIX;
+  </script>
 </head>
