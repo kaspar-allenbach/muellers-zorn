@@ -1,40 +1,39 @@
 ---
 layout: post
 title: "Die Spiegelung"
-date: 0000-00-00
+date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
 ---
-Was möchte noch den kahlen Ort bestücken 
 
-Was blieb inmitten so allein 
+Was möchte noch den kahlen Ort bestücken
 
-auf lange nicht begangnen Brücken. 
+Was blieb inmitten so allein
 
-Mein Schritt, die Last, der graue Stein 
+auf lange nicht begangnen Brücken.
 
-die eine letzte Schwere zeugen 
+Mein Schritt, die Last, der graue Stein
 
-Und treibt was mich so nah beschwor 
+die eine letzte Schwere zeugen
 
-mich weil es leise mir erfror? 
+Und treibt was mich so nah beschwor
 
-Was liess das Zusehn meinem Schweigen 
+mich weil es leise mir erfror?
 
-Wie kam es fremd aus mir hervor 
+Was liess das Zusehn meinem Schweigen
 
-als grau mein Schritt den Sinn verlor 
+Wie kam es fremd aus mir hervor
 
-und was dem Ruf der schwarzen Geigen? 
+als grau mein Schritt den Sinn verlor
 
- 
+und was dem Ruf der schwarzen Geigen?
 
-Die Spiegelung, das kahle Sein 
+Die Spiegelung, das kahle Sein
 
-auf Bogen die sich ungemein 
+auf Bogen die sich ungemein
 
-und hoch im fahlen Widerschein 
+und hoch im fahlen Widerschein
 
-der dunkeln Wanderung allein 
+der dunkeln Wanderung allein
 
-und tief zu fremden Ufern beugen 
+und tief zu fremden Ufern beugen

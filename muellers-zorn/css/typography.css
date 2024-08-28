@@ -1,6 +1,14 @@
-p {
-    font-family: "antique-olive-nord", sans-serif;
+nav {
+    font-family: "franklin-gothic-urw-cond", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+}
+.poem {
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    p {
+        margin: 0;
+    }
 }

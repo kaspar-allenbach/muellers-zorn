@@ -7,7 +7,7 @@ layout: base
   itemscope
   itemtype="http://schema.org/CreativeWork"
 >
-  <header class="post-header">
+  <header class="post-header" itemprop="articleHead"></header>>
     <h1 class="post-title p-name" itemprop="name headline">
       {{ page.title | escape }}
     </h1>
@@ -33,7 +33,7 @@ layout: base
     </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
+  <div class="poem" itemprop="articleBody">{{ content }}</div>
 </article>
 
 {%- include prevNext.liquid -%}

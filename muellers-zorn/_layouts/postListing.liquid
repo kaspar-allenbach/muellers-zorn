@@ -3,19 +3,19 @@ layout: base
 ---
 
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="pageTitle">{{ page.title }}</h1>
   {%- endif -%}
   
   {{ content }}
 
-  <ul class="post-list">
+  <ul class="postListing">
     {%- for post in site.gedichte -%}
       <li>
-        <h3>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h2>
         {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
       </li>
     {%- endfor -%}

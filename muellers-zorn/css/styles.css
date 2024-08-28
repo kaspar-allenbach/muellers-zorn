@@ -1,5 +1,15 @@
 @import 'typography.css';
 
+:root {
+    --color-bg: rgb(93, 95, 103);
+    --color-txt: rgb(210, 215, 231);
+}
+
 body {
-    background: rgb(93, 95, 103);
+    background: var(--color-bg);
+    color: var(--color-txt);
+}
+nav {
+    display: flex;
+    gap: 20px;
 }

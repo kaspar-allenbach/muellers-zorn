@@ -1,11 +1,11 @@
 {% if page.previous %}
-    <span class="previous-link">
+    <p class="prevNext prev">
       <a rel="prev" href="{{ page.previous.url }}"
         >{{ page.previous.title }}</a
       >
-    </span>
+    </p>
     {% endif %} {% if page.next %}
-    <span class="next-link">
+    <p class="prevNext next">
       <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} -></a>
-    </span>
-    {% endif %}
+    </p>
+{% endif %}
