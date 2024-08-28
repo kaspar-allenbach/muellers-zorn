@@ -4,6 +4,7 @@ title: "Die Spiegelung"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
+creationDate: false
 ---
 
 Was möchte noch den kahlen Ort bestücken
