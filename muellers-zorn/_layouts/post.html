@@ -12,8 +12,7 @@ layout: base
       {{ page.title | escape }}
     </h1>
     <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-      -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time
         class="dt-published"
         datetime="{{ page.date | date_to_xmlschema }}"

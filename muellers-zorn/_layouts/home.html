@@ -2,10 +2,13 @@
 layout: base
 ---
 
-{{ content }} {% assign random = site.time | date: "%s%N" | modulo:
-site.posts.size %}
+{{ content }}
+
+{{{% assign random = site.time | date: "%s%N" | modulo: site.gedichte.size %}
+
 <p class="quote random">
-  {{ site.posts[random].content }}
-  <span class="author">{{ site.posts[random].author }}</span>
-  <a href="{{ site.posts[random].url }}">{{ site.posts[random].title }}</a>
+  {{ site.gedichte[random].content }}
+  <span class="author">{{ site.gedichte[random].author }}</span>
+  <a href="{{ site.gedichte[random].url }}">{{ site.gedichte[random].title }}</a>
 </p>
+}}
