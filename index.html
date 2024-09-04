@@ -25,31 +25,31 @@
     let FF_FOUC_FIX;
   </script>
 </head><body><header class="siteHeader"><nav class="site-nav">
+            
+              <div class="jumper"><button id="randomPoemBtn">Zufall</button></div>
+            
             <a class="site-title" rel="author" href="/muellers-zorn/">Müllers Zorn</a><a class="page-link" href="/muellers-zorn/gedichte/">Gedichte </a><a class="page-link" href="/muellers-zorn/alles.yaml">Im Vertrauen auf den Weltengeist </a><a class="page-link" href="/muellers-zorn/about/">About </a></nav></header><main aria-label="Content">
 
 
 
 
 <article class="poem" itemprop="articleBody">
-  <button id="randomPoemBtn">Show Random Post</button>
-  <div id="randomPoem"><p>Vogelruf lotet<br />
-Raumtiefe<br />
-Erwachende tragen Windschatten im Blick<br />
-Fernost rückt näher<br />
-und Vormittag sinkt in die Kerben<br />
-der langen Verwunderung<br />
-Die Häuser haben Kalk im Gesicht.<br />
-Das Unverhoffte<br />
-lässt auf sich warten<br />
-In ihren Kurven beklagt<br />
-die Werkbahn das Schwinden der Musse<br />
-Doch zwischen Fassaden zögert<br />
-ein matter Geruch von Rauch</p>
+  <div id="randomPoem"><p>Ein Mensch<br />
+von grosser Beholfenheit<br />
+näherte sich<br />
+meinem Erwartungsumriss<br />
+und füllte ihn unvermutet nahezu aus.<br />
+Wer beschreitet mein Staunen?<br />
+Meine Unbeholfenheit<br />
+nahm ab<br />
+hingegen meine Freude<br />
+leise zu.<br />
+Zusehends werde ich <br />
+beholfener.<br />
+Die ignorante Gegenwart indessen<br />
+sank in Vergangenheit.</p>
 </div>
-  <header class="postHeader">
-    <span class="author">Erich Müller-Santis</span>
-    <a href="/gedichte/Vogelruf-lotet.html" class="readMoreLink">Die Spiegelung</a>
-  </header>
+  <a href="/gedichte/ein-mensch.html" class="readMoreLink">Ein Mensch</a>
 </article>
 
 <script>
@@ -58,10 +58,9 @@ ein matter Geruch von Rauch</p>
   document.addEventListener('DOMContentLoaded', function() {
   const button = document.getElementById('randomPoemBtn');
   const randomPoemDiv = document.getElementById('randomPoem');
-  const authorSpan = document.querySelector('.author');
   const readMoreLink = document.querySelector('.readMoreLink');
 
-  if (button && randomPoemDiv && authorSpan && readMoreLink) {
+  if (button && randomPoemDiv && readMoreLink) {
     button.addEventListener('click', function() {
       fetch(dataUrl)
         .then(response => response.json())
@@ -71,10 +70,7 @@ ein matter Geruch von Rauch</p>
           const randomPoem = data.gedichte[randomIndex];
 
           // Update HTML elements
-          randomPoemDiv.innerHTML = `
-            ${randomPoem.excerpt}
-          `;
-          authorSpan.textContent = `Author: ${randomPoem.author || 'Unknown'}`; // Assuming you have an author field
+          randomPoemDiv.innerHTML = `${randomPoem.excerpt}`;
           readMoreLink.href = randomPoem.url;
           readMoreLink.textContent = randomPoem.title;
         })

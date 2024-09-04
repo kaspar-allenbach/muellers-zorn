@@ -3,6 +3,8 @@
 :root {
     --color-bg: rgb(31, 37, 51);
     --color-txt: rgb(146, 154, 177);
+    --ff-lauftxt: "logic-monospace", mono;
+    --ff-display: "logic-monospace", mono;
 }
 
 body {
@@ -19,6 +21,10 @@ nav {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+
+    .jumper {
+        margin-right: auto;
+    }
 }
 
 .siteHeader {
@@ -29,6 +35,10 @@ nav {
 .prevNext {
     display: flex;
 
+    p {
+        margin: 0;
+    }
+
     a {
         text-decoration: none;
 
@@ -38,8 +48,14 @@ nav {
     }
 }
 
-a {
+a,
+#randomPoemBtn {
     color: var(--color-txt);
+    border: none;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
 
     &:visited,
     &:hover {
@@ -51,12 +67,16 @@ a {
 .postListing {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
     li {
         display: inline;
 
         .pageTitle {
             display: inline;
+            margin: 0;
         }
     }
 }
