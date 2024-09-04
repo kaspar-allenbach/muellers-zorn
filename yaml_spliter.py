@@ -1,15 +1,18 @@
 import os
 import re
+import unicodedata
 
-# Function to convert a string to kebab case
+# Function to convert a string to ASCII-safe kebab case
 def to_kebab_case(text):
-    # Remove special characters except spaces and hyphens
+    # Normalize the text to decompose special characters into ASCII equivalents
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+    # Remove any remaining special characters except spaces and hyphens
     text = re.sub(r'[^a-zA-Z0-9\s-]', '', text)
     # Replace spaces with hyphens and convert to lowercase
     return re.sub(r'\s+', '-', text).lower()
 
 # Read the YAML content from the file
-with open('alles.yaml', 'r', encoding='utf-8') as file:
+with open('source.yaml', 'r', encoding='utf-8') as file:
     content = file.read()
 
 # Split the content based on the '---' delimiter surrounded by newlines
