@@ -1,2 +1,4 @@
-baseurl: "https://bookish-adventure-qw7rrvwx7f47xw-4000.app.github.dev/"
+host: 0.0.0.0
+baseurl: ""
 environment: development
+url: "https://bookish-adventure-qw7rrvwx7f47xw-4000.app.github.dev/"
