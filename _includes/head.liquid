@@ -6,8 +6,10 @@
   <link rel="stylesheet" href="https://use.typekit.net/sgt8ugw.css">
   {% if jekyll.environment == "development" %}
     <link rel="stylesheet" href="{{ "/css/styles.css" | site.url }}">
+    <script src="{{ "/js/stuff.js" | site.url }}"></script>
   {% else %}
     <link rel="stylesheet" href="{{ site.url }}{{ "/css/styles.css" | site.url }}">
+    <script src="{{ site.url }}{{ "/js/stuff.js" | site.url }}"></script>
   {% endif %}
 
   {%- feed_meta -%} {%- if jekyll.environment == 'production'

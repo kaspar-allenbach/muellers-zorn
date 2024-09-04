@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{
+  "gedichte": [
+    {% for item in site.gedichte %}
+      {
+        "title": {{ item.title | jsonify }},
+        "excerpt": {{ item.excerpt | jsonify }},
+        "author": {{ item.author | jsonify }},
+        "url": {{ item.url | jsonify}}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
