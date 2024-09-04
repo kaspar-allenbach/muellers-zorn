@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Müllers Zorn | Gedichte des Seeländer Malers Erich Müler-Santis.</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Müllers Zorn" />
+<meta property="og:locale" content="" />
+<meta name="description" content="Gedichte des Seeländer Malers Erich Müler-Santis." />
+<meta property="og:description" content="Gedichte des Seeländer Malers Erich Müler-Santis." />
+<link rel="canonical" href="https://kaspar-allenbach.github.io/muellers-zorn//muellers-zorn/" />
+<meta property="og:url" content="https://kaspar-allenbach.github.io/muellers-zorn//muellers-zorn/" />
+<meta property="og:site_name" content="Müllers Zorn" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Müllers Zorn" />
+<meta name="google-site-verification" content="" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Gedichte des Seeländer Malers Erich Müler-Santis.","headline":"Müllers Zorn","name":"Ben Balter","sameAs":["https://twitter.com/BenBalter","https://www.facebook.com/ben.balter","https://www.linkedin.com/in/BenBalter","https://github.com/benbalter","https://keybase.io/benbalter"],"url":"https://kaspar-allenbach.github.io/muellers-zorn//muellers-zorn/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://use.typekit.net/sgt8ugw.css">
+  <link rel="stylesheet" href="/muellers-zorn/css/styles.css"><link type="application/atom+xml" rel="alternate" href="https://kaspar-allenbach.github.io/muellers-zorn//muellers-zorn/feed.xml" title="Müllers Zorn" /><script>
+    /*to prevent Firefox FOUC, this must be here*/
+    let FF_FOUC_FIX;
+  </script>
+</head>
+https://kaspar-allenbach.github.io/muellers-zorn/ <body><header class="siteHeader"><nav class="site-nav">
+            <a class="site-title" rel="author" href="/">Müllers Zorn</a><a class="page-link" href="/muellers-zorn/gedichte/">Gedichte </a><a class="page-link" href="/muellers-zorn/alles.yaml">Im Vertrauen auf den Weltengeist </a><a class="page-link" href="/muellers-zorn/about/">About </a></nav></header><main aria-label="Content">
+
+
+
+
+<article class="poem" itemprop="articleBody">
+  <button id="randomPoemBtn">Show Random Post</button>
+  <div id="randomPoem"><p>Vogelruf lotet<br />
+Raumtiefe<br />
+Erwachende tragen Windschatten im Blick<br />
+Fernost rückt näher<br />
+und Vormittag sinkt in die Kerben<br />
+der langen Verwunderung<br />
+Die Häuser haben Kalk im Gesicht.<br />
+Das Unverhoffte<br />
+lässt auf sich warten<br />
+In ihren Kurven beklagt<br />
+die Werkbahn das Schwinden der Musse<br />
+Doch zwischen Fassaden zögert<br />
+ein matter Geruch von Rauch</p>
+</div>
+  <header class="postHeader">
+    <span class="author">Erich Müller-Santis</span>
+    <a href="/gedichte/Vogelruf-lotet.html" class="readMoreLink">Die Spiegelung</a>
+  </header>
+</article>
+
+<script>
+  const dataUrl = "/muellers-zorn/poem-list.json";
+  
+  document.addEventListener('DOMContentLoaded', function() {
+  const button = document.getElementById('randomPoemBtn');
+  const randomPoemDiv = document.getElementById('randomPoem');
+  const authorSpan = document.querySelector('.author');
+  const readMoreLink = document.querySelector('.readMoreLink');
+
+  if (button && randomPoemDiv && authorSpan && readMoreLink) {
+    button.addEventListener('click', function() {
+      fetch(dataUrl)
+        .then(response => response.json())
+        .then(data => {
+          // Get a random poem
+          const randomIndex = Math.floor(Math.random() * data.gedichte.length);
+          const randomPoem = data.gedichte[randomIndex];
+
+          // Update HTML elements
+          randomPoemDiv.innerHTML = `
+            ${randomPoem.excerpt}
+          `;
+          authorSpan.textContent = `Author: ${randomPoem.author || 'Unknown'}`; // Assuming you have an author field
+          readMoreLink.href = randomPoem.url;
+          readMoreLink.textContent = randomPoem.title;
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+    });
+  }
+});
+
+</script>
+</main></body>
+</html>

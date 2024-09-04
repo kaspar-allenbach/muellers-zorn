@@ -1,0 +1,21 @@
+nav,
+.prevNext,
+.poemTitle {
+    font-family: "franklin-gothic-urw-cond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poem,
+.pageTitle,
+.prevNext {
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    margin: 0;
+
+    p {
+        margin: 0;
+    }
+}
