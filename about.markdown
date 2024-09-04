@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Erich Müller-Santis
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+1927-2015
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+War Künstler, Maler, Bildhauer und lebte im Seeland.
+Seine, über die Jahre aufgeschriebenen Gedichte, finden sich hier.
 
+[Malerei](https://erich-mueller.ch/)
 
-[jekyll-organization]: https://github.com/jekyll
+![Image](https://erich-mueller.ch/src/ausstellung-Muellers.jpg)
+
+- Transkription: [Rückblick - Büro für Geschichte](https://sidler-geschichte.ch/)
+- Grafik & Programmierung: [Kaspar Allenbach](https://atelier.kaspar-allenbach.ch/)

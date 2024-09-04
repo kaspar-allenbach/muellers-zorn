@@ -1,9 +1,10 @@
 ---
-layout: post
 title: "Ein Bettler"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
+layout: post
+creationDate: "3.08"
 ---
 Sanft ragt und kühl am Grund
 der zugewandten Blicke

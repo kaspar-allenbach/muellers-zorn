@@ -4,9 +4,8 @@ date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
 layout: post
-creationDate: false
+creationDate: ""
 ---
-
 Im trägen Fluss ein grauer Stein
 Ein Blick im Schatten grauer Brücken
 Wie nie noch endlich nur noch mein

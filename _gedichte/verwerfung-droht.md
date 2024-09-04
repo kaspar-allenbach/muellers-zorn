@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "Die Spiegelung"
+title: "Verwerfung droht."
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
-creationDate: "Mai 2006"
+layout: post
+creationDate: "5.06"
 ---
 Verwerfung droht. Die schalen Blicke langen
 mit kalten Händen in den andern Garten

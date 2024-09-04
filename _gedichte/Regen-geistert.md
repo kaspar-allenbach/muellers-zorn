@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Regen Geistert"
+title: "Regen geistert"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
+layout: post
 creationDate: "(erste Fassung 60erjahre), 2005"
 ---
 Regen geistert auf Terrassen

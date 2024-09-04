@@ -1,18 +1,23 @@
 nav,
 .prevNext,
-.poemTitle {
-    font-family: "franklin-gothic-urw-cond", sans-serif;
+.poemTitle,
+button,
+.post-link,
+p,
+li,
+.readMoreLink {
+    font-family: var(--ff-display);
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
+    font-size: 18px;
 }
 
 .poem,
-.pageTitle,
-.prevNext {
-    font-family: "franklin-gothic-urw", sans-serif;
-    font-weight: 700;
+h1 {
+    font-family: var(--ff-lauftxt);
+    font-weight: 400;
     font-style: normal;
-    font-size: 4vw;
+    font-size: 18px;
     margin: 0;
 
     p {

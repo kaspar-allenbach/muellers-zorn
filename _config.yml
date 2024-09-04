@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 google_site_verification: ""
 image: ""
 author: ""
-locale: ""
+locale: "de_ch"
 social:
   name: Ben Balter
   links:

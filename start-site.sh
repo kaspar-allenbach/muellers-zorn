@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll serve --config _config.yml,_config-dev.yml
+jekyll serve --config _config.yml,_config-dev.yml -w
