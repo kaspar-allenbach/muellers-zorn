@@ -1,11 +1,15 @@
-name: Regularly rebuild site
+name: Load new Random Post
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 * * * *'  # This cron expression runs the workflow at the top of every hour
+    - cron: '0 * * * *'  # Runs every hour
 
 jobs:
   build:
+    name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -13,14 +17,14 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@v2
       with:
-        ruby-version: '3.1'  # Ensure this matches your Ruby version
+        ruby-version: '3.3.4'  # Set the Ruby version you are using
 
     - name: Install dependencies
       run: bundle install
 
-    - name: Build Jekyll site
+    - name: Build the site
       run: bundle exec jekyll build
 
     - name: Deploy to GitHub Pages
@@ -28,3 +32,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        target_branch: gh-pages
+        allow_empty_commit: true
