@@ -1,7 +1,7 @@
 @import 'typography.css';
 
 :root {
-    --color-bg: rgb(31, 37, 51);
+    --color-bg: rgb(38, 22, 26);
     --color-txt: rgb(146, 154, 177);
     --ff-lauftxt: "logic-monospace", mono;
     --ff-display: "logic-monospace", mono;
@@ -10,30 +10,59 @@
 body {
     background: var(--color-bg);
     color: var(--color-txt);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+
+    @media (max-width: 512px) {
+        flex-direction: column-reverse;
+    }
 }
 
 main {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
 }
 
 nav {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+    padding: 20px;
+
+    a {
+        container-name: navLink;
+    }
 
     .jumper {
         margin-right: auto;
+
+        @media (max-width: 512px) {
+            width: 100%;
+
+            .prevNext a {
+                padding: 20px;
+            }
+        }
     }
 }
 
 .siteHeader {
     position: sticky;
-    top: 0;
+    background-color: var(--color-bg);
+
+    @media (max-width: 512px) {
+        bottom: 0;
+    }
 }
 
 .prevNext {
     display: flex;
+    gap: 20px;
 
     p {
         margin: 0;
@@ -66,17 +95,38 @@ a,
 
 .postListing {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    line-height: 1;
+
+    @media (max-width: 512px) {
+        flex-direction: column;
+    }
 
     li {
         display: inline;
 
+        &:after {
+            content: "•";
+        }
+
         .pageTitle {
             display: inline;
             margin: 0;
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
         }
     }
+}
+
+img {
+    width: 100%;
 }
