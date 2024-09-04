@@ -4,10 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {%- seo -%} 
   <link rel="stylesheet" href="https://use.typekit.net/sgt8ugw.css">
-  <link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/styles.css" | root_url }}">
   {%- feed_meta -%} {%- if jekyll.environment == 'production'
-  and site.google_analytics -%} {%- include google-analytics.html -%} {%- endif
-  -%}
+  and site.google_analytics -%} {%- include google-analytics.html -%} {%- endif -%}
   <script>
     /*to prevent Firefox FOUC, this must be here*/
     let FF_FOUC_FIX;
