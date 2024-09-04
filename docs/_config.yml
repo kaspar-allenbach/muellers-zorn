@@ -22,8 +22,8 @@ title: Müllers Zorn
 email: anfrage@kaspar-allenbach.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Gedichte des Seeländer Malers Erich Müler-Santis.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /docs
+url: https://kaspar-allenbach.github.io/muellers-zorn
 google_site_verification: ""
 image: ""
 author: ""
