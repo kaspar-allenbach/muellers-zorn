@@ -2,18 +2,17 @@ title: Müllers Zorn
 email: anfrage@kaspar-allenbach.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Gedichte des Seeländer Malers Erich Müler-Santis.
-google_site_verification: ""
+google_site_verification: "RTRb9-5C8Yd04clozDff3vc0cy32trkj3b20-wnEEfo"
 image: ""
-author: ""
+author: "Kaspar Allenbach"
 locale: "de_ch"
 social:
-  name: Ben Balter
+  name: Kaspar Allenbach
   links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+    - https://www.instagram.com/kasparallenbach/
+    - https://www.threads.net/@kasparallenbachgithub
+    - https://github.com/kaspar-allenbach
+    - https://www.linkedin.com/in/kaspar-allenbach-138689248/
 
 # Build settings
 theme: minima
