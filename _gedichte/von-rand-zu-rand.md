@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "Von Rand zu Rand"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
-creationDate: "bis Mai 06"
+layout: post
+creationDate: "Mai 06"
 ---
 I
 Der Ort erwacht, im Räderwerk das Drehen

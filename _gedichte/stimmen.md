@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "STIMMEN"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
+layout: post
 creationDate: "Herbst–Winter 05–06"
 ---
 Satte Dächer fasst ein Zittern

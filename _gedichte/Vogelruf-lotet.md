@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "Die Spiegelung"
+title: "Vogelruf lotet"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
-creationDate: "Vogelruf lotet"
+layout: post
+creationDate: "Frühjahr–Sommer 95"
 ---
 Vogelruf lotet
 Raumtiefe

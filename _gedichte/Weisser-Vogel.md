@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "Weisser Vogel"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
-creationDate: false
+layout: post
+creationDate: ""
 ---
 Doch dein Rufen, Vogel, wurde heiser
 Wurde nicht sein Werben leiser

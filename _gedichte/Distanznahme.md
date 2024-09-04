@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Distanznahme"
 date: 1900-01-01
 categories: gedicht
 author: "Erich Müller-Santis"
+layout: post
 creationDate: "Winter 00–01"
 ---
 Entgangen dem Tiefsinn welcher
