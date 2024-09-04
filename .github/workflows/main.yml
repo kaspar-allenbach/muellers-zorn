@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: "0 * * * *" # Runs every hour
 
 jobs:
   build:
@@ -13,24 +13,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v2
-      with:
-        ruby-version: '3.3.4'  # Set the Ruby version you are using
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v3
+        with:
+          ruby-version: "3.3.4" # Set the Ruby version you are using
 
-    - name: Install dependencies
-      run: bundle install
+      - name: Install dependencies
+        run: bundle install
 
-    - name: Build the site
-      run: bundle exec jekyll build
+      - name: Build the site
+        run: bundle exec jekyll build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        target_branch: gh-pages
-        allow_empty_commit: true
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          target_branch: gh-pages
+          allow_empty_commit: true
