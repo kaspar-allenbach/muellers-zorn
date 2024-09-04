@@ -15,11 +15,7 @@ layout: base
 </article>
 
 <script>
-  {% if jekyll.environment == "development" %}
-    const dataUrl = "/poem-list.json";
-  {% else %}
-  const dataUrl = "{{ site.url }}/poem-list.json";
-  {% endif %}
+  const dataUrl = "{{ site.baseurl }}/poem-list.json";
   
   document.addEventListener('DOMContentLoaded', function() {
   const button = document.getElementById('randomPoemBtn');
