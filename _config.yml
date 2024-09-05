@@ -25,6 +25,6 @@ collections:
 kramdown:
   hard_wrap: true
 
-baseurl: "/muellers-zorn"
-url: "https://kaspar-allenbach.github.io/muellers-zorn/"
+baseurl: ""
+url: "https://muellers-zorn.ch/"
 environment: production
