@@ -1,8 +1,8 @@
 @import 'typography.css';
 
 :root {
-    --color-bg: rgb(38, 22, 26);
-    --color-txt: rgb(146, 154, 177);
+    --color-bg: rgb(81, 81, 81);
+    --color-txt: #c6c6c6;
     --ff-lauftxt: "logic-monospace", mono;
     --ff-display: "logic-monospace", mono;
 }

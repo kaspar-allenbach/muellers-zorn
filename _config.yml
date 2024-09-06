@@ -3,7 +3,7 @@ email: anfrage@kaspar-allenbach.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Gedichte des Seeländer Malers Erich Müler-Santis.
 google_site_verification: "RTRb9-5C8Yd04clozDff3vc0cy32trkj3b20-wnEEfo"
-image: ""
+image: "/assets/img/erich-mueller.jpg"
 author: "Kaspar Allenbach"
 locale: "de_ch"
 social:
