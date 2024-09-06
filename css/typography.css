@@ -13,11 +13,12 @@ li,
 }
 
 .poem,
+#randomPoem p,
 h1 {
     font-family: var(--ff-lauftxt);
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0;
 
     p {
