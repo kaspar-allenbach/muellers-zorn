@@ -6,7 +6,7 @@ layout: base
 {% assign random = site.time | date: "%s%N" | modulo: site.gedichte.size %}
 
 <article class="poem" itemprop="articleBody">
-  <div id="randomPoem">{{ site.gedichte[random].content }}</div>
+  <div id="randomPoem" class="poem">{{ site.gedichte[random].content }}</div>
   <a href="{{ site.gedichte[random].url }}" class="readMoreLink">{{ site.gedichte[random].title }}</a>
 </article>
 
