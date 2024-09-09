@@ -12,8 +12,7 @@ li,
     font-size: 18px;
 }
 
-.poem,
-#randomPoem p,
+.poem p,
 h1 {
     font-family: var(--ff-lauftxt);
     font-weight: 400;

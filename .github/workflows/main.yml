@@ -3,7 +3,7 @@ name: Load new Random Post
 on:
   push:
     branches:
-      - main
+      - LIVE
   schedule:
     - cron: "0 * * * *" # Runs every hour
 
